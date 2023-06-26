@@ -1,0 +1,7 @@
+echo "# 5665" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kis64/5665.git
+git push -u origin main
